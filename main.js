@@ -8,7 +8,6 @@ function check(){
 			alert("password field cannot be empty")
 		}
 		else{
-			alert("welcome to Codebook
-				")
+			alert("welcome to Codebook")
 		}
 }

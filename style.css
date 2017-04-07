@@ -1,0 +1,56 @@
+body{
+	background-image: url("bg.jpg"); 
+}
+h1{
+	font-size: 30px;
+}
+
+
+#side-img{
+	margin-left: 10%;
+}
+#image-box{
+	position: absolute;
+	top:20px;
+	margin-left: 78%;
+	margin-top: 10px;
+	font-family: 'Indie Flower', cursive;
+	width: 20%;
+
+}
+img{
+	border: 5px solid black;
+	border-radius: 100%;
+}
+#user-detail{
+	position: absolute;
+	top:200px;
+	margin-left: 76%;
+	font-family: 'Indie Flower', cursive;
+	margin-top: 15px;
+	
+	width: 25%;
+	height: 50px;
+
+	padding: 1%;
+	font-size: 20;
+	font-size: bold;
+}
+strong{
+	font-family: 'Indie Flower', cursive;
+	font-size: 15;
+
+}
+#new-user{
+	margin-left: 78%;
+	margin-top: 10px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 30;
+}
+button{
+	background-color: #FF0066;
+	color:white;
+}
+button:hover{
+	opacity: 0.9;
+}

@@ -19,7 +19,15 @@
 		<label>Username or Email Address</label>
 		<input id="user" type="text" placeholder="Enter Username or Email Id"><br>
 		<label>Password</label><br>
-		<input id="code" type="password" placeholder="Enter your password"><br><br>
+		<input id="code" type="password" placeholder="Enter your password">
+		<div class="strength-wrapper">
+                  <span class="strength weak">&nbsp;</span>
+                  <span class="strength midzone">&nbsp;</span>
+                  <span class="strength strongzone">&nbsp;</span>
+                  <span class="strength verystrongzone">&nbsp;</span>
+                  <span id="passwordStrengthString">Strong</span>
+                </div>
+		<br><br>
 		<button onclick="check()"><strong>Sign In </strong></button>
 	</div>
 	<div id="new-user">
